@@ -1,0 +1,52 @@
+/* Apply a common font family to all elements */
+*
+ {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center text and elements */
+body, button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* maximum width leave some space on sides*/
+button, table {
+    max-width: 96vh;
+}
+
+/* Center horizontally for p, button */
+p, button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Set styling for buttons */
+button {
+    border-collapse: collapse;
+    margin: 8px;
+    width: 96%;
+    max-width: 572px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 150%;
+    
+}
+/* Table styles remain unchanged */
+table {
+    padding: 10px;
+    margin: 0 auto; /* Center horizontally */
+    border-collapse: collapse;
+    width: 96%;
+    max-width: 572px;
+}
+
+td {
+    border: 1px solid black;
+    width: 60px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    text-align: center;
+    font-size: 250%;
+}
+
+
